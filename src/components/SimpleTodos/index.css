@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffc2a0;
+  height: 100vh;
+}
+.card {
+  background-color: white;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 15px;
+}
+ul {
+  list-style-type: none;
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #ff8542;
+  }
+}
+@media (min-width: 767px) {
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #ff8542;
+  }
+}
